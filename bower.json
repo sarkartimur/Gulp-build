@@ -1,0 +1,22 @@
+{
+  "name": "gulp-build",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Timur Sarkar <sarkartimur@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2"
+  }
+}
