@@ -81,6 +81,10 @@ b.on('update', bundle);
 
 function bundle() {
   return b.bundle()
+    .on('error', function (err) {
+        console.log(err.toString());
+        this.emit("end");
+    })
     .pipe(v_source('main.js'))
     .pipe(plumber())
     .pipe(streamify(uglify()))
