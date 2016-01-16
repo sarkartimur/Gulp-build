@@ -58,3 +58,6 @@ bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
+
+### Sublime-gulp cache ###
+.sublime-gulp.cache

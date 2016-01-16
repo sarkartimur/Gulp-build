@@ -71,8 +71,11 @@ gulp.task('sass', function() {
 gulp.task('scripts', bundle);
 
 var customOpts = {
-  entries: ['_dev/_scripts/main.js'],
-  debug: true
+    entries: ['_dev/_scripts/main.js'],
+    debug: true,
+    cache: {},
+    packageCache: {},
+    fullPaths: true
 };
 
 var b = watchify(browserify(customOpts)); 

@@ -18,7 +18,7 @@ This is my current gulp build. It includes the following dependencies:
 
 ## Installation
 
-Run the this command in your terminal to install all dependencies.
+Run this command in your terminal to install all dependencies.
 
 On mac:
 
